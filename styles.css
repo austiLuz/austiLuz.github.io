@@ -86,6 +86,10 @@
     font-size: 3rem;
   }
 
+  #education p{
+      padding: 2%;
+    }
+
 
   .codeacademy img{
     width: 100%;
