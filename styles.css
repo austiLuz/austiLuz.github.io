@@ -170,6 +170,42 @@ textarea {
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.636);
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100px;
+}
+
+footer span {
+  margin-top: 1em;
+  font-size: 0.9rem;
+  color: white;
+}
+
+footer img {
+  height: 30px;
+  margin-bottom: 1em;
+}
+
+footer p {
+  margin: 5px;
+  padding: 5px;
+}
+
+
+.fa-linkedin:hover, .fa-github-square:hover {
+  color: #ff771d; 
+}
+
+
+
 
 /*For Mobile */
 @media (max-width: 600px) {
