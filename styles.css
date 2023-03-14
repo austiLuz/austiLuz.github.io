@@ -37,6 +37,11 @@ nav li a {
   text-decoration: none;
   font-size: 20px;
 }
+
+nav li a:hover {
+  color: rgb(246, 109, 12);
+  text-decoration: none;
+}
  
 .container {
   position: relative;
@@ -80,7 +85,7 @@ nav li a {
 }
 
 .social-icons a:hover {
-  color: #555;
+  color: rgb(247, 93, 3);
 }
 
 .fa-github:before,
