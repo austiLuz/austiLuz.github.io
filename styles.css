@@ -132,13 +132,12 @@ nav li a:hover {
 .languages img {
   height: 120px;
   width: 120px;
+  object-fit: contain;
   justify-content: space-around;
-  padding: 30px;
+  padding: 10px;
 }
 
-.languages .trello img{
-  width: 170px;
-}
+
 
 @media (max-width: 600px) {
   nav {
